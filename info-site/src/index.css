@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  height: 100vh; 
+  background-color: #282D35;
 }
 
 nav {
@@ -15,6 +17,12 @@ nav {
   padding: 30px 25px;
 }
 
+main {
+  height: 100%;
+  padding: 57px 27px;
+  color: white;
+
+}
 
 .nav--logo_text, .nav--title {
   margin: 0;
@@ -35,4 +43,29 @@ nav {
 .nav--logo {
   height: 30px;
   margin-right: 7px; 
+}
+
+h1 {
+  margin:0;
+  font-size: 39px;
+}
+
+.main-facts {
+  margin-top: 46px;
+  max-width: 400px;
+  
+}
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
 }
