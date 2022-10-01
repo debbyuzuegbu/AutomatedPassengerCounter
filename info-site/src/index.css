@@ -21,6 +21,8 @@ main {
   height: 100%;
   padding: 57px 27px;
   color: white;
+  background-repeat: no-repeat;
+  background-position: right, 75%;
 
 }
 
@@ -69,3 +71,4 @@ h1 {
 .main--facts > li::marker {
   font-size: 1.4rem;
 }
+
